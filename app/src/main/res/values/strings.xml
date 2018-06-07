@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="main_cat1title">Now playing</string>
+    <string name="nowPlayingArtist">Artist Name</string>
+    <string name="nowPlayingSong">Song Title</string>
+    <string name="nowPlayingAlbum">Album Title</string>
+    <string name="nowPlayingArtistInfo">Lorem ipsum dolor sit amet, facilisis id elit mauris sollicitudin lectus, luctus luctus netus velit ut id amet, dictumst irure, mi ea non amet eu quisque. \nEa eros pellentesque maecenas est et, hendrerit libero lacus non, convallis repellat purus consectetuer posuere ante commodo, in non ac natoque.</string>
+    <string name="main_cat2title">Your library</string>
+    <string name="artist_cat1title">About this artist</string>
+    <string name="artist_cat2title">Music by this artist</string>
+    <string name="songsLabel">Library</string>
+    <string name="artistLabel">Artist Info</string>
+    <string name="buttonPlay">Play</string>
+</resources>

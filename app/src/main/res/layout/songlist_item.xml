@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/customList_imageView_albumCover"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/forestswords_compassion_2017" />
+
+    <LinearLayout
+        android:id="@+id/customList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/customList_textView_artistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:text="Forest Swords" />
+
+        <TextView
+            android:id="@+id/customList_textView_songName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16sp"
+            android:textColor="@color/colorText"
+            tools:text="Raw Language" />
+
+        <TextView
+            android:id="@+id/customList_textView_albumName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="14sp"
+            tools:text="Compassion" />
+
+        <TextView
+            android:id="@+id/customList_textView_releaseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="12sp"
+            tools:text="2017" />
+
+        <TextView
+            android:id="@+id/customList_textView_numberOfPlays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:text="320" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/buttonPlay"
+            android:textColor="@color/colorTitle"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>
